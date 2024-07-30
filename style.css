@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+    padding-top: 30px;
+   
+    
+}
+header .liste ul li{
+    padding-left: 15px;
+    font-size: 25px;
+    
+}
+
+.bg{
+    height: 500px;
+    background-image: url(Rectangle\ 46.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg img{
+    width: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+.form p{
+    font-size: 30px;
+    background-color: black;
+    padding: 20px 20px;
+    color: white;
+   margin: 10px 0;
+}
+.bg .txt{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.general{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.general .box img{
+    width: 50px;
+    
+}
+.img-code{
+   color: rgb(44, 80, 71);
+    border: 2px solid;
+    padding: 40px; 
+    border-radius: 50%; 
+    margin-bottom: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.partie-trois .flex{
+    background-color: gainsboro;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.partie-trois .list ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+.partie-trois .list ul li{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.partie-trois .flex-img{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.flex-img img{
+    width: 100%;
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.partie-quatre .bakeli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.partie-quatre .bakeli h1{
+    font-size: 40px;
+}
+.partie-quatre .bakeli p{
+    text-align: center;
+    margin-top: 30px;
+}
+.partie-quatre .bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-top: 80px;
+}
+.partie-quatre .bar span{
+    margin-left: 270px;
+}
+.partie-quatre .bar .pro1 progress{
+    width: 400px;
+    height: 15px;
+    
+}
+.partie-quatre .bar .pro2 span{
+    margin-left: 240px;
+}
+.partie-quatre .bar .pro2 progress{
+    width: 400px;
+    height: 15px;
+   
+}
+.partie-quatre .bar .pro3 span{
+    margin-left: 200px;
+    
+}
+.partie-quatre .bar .pro3 progress{
+    width: 400px;
+    height: 15px;
+   
+}
+.partie-quatre .bar .pro4 progress{
+    width: 400px;
+    height: 15px;
+    margin-top: 55px;
+}
+.partie-quatre .bar .pro3{
+    margin-top: 18px;
+}
+.partie-quatre .bar p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+progress{
+    -webkit-appearance: none;
+}
+progress::-webkit-progress-bar{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+progress::-webkit-progress-value{
+    background-color: rgba(165,192,173,255);
+    border-radius: 5px;
+}
+section .team{
+    margin-top: 90px;
+    background-color: rgba(165,192,173,255);
+    height: 700px;
+}
+
+.team h6{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+}
+.team p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: white;
+}
+.team .src{
+    display: flex;
+}
+.team img{
+    margin-left: 10px;
+    padding-left: 15px;
+}
+.team img:hover{
+    width: 300px;
+}
+
+section .foot .img-png img{
+    width: 100px;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+section .foot .lorem p{
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 17px;
+}
+section .foot .font-weight{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: rgba(235,235,235,255);
+    height: 600px;
+    font-family: sans-serif;
+}
+footer .info{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+footer .flexible{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 600;
+}
+footer .flexible div p{
+    margin-top: 10px;
+}
+footer h5{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+footer .copy{
+    margin-top: 180px;
+    text-align: center;
+}
