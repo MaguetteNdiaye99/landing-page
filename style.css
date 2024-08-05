@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -187,6 +188,20 @@ section .team{
     background-color: rgba(165,192,173,255);
     height: 700px;
 }
+@media screen and (max-width: 620px){
+    section .team{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .partie-quatre .bar {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        margin-top: 80px;
+    }
+    
+}
 
 .team h6{
     text-align: center;
@@ -204,18 +219,39 @@ section .team{
     display: flex;
 }
 .team img{
+    width: 100%;
+    margin: auto;
     margin-left: 10px;
     padding-left: 15px;
 }
 .team img:hover{
-    width: 300px;
+    transform: scale(1.2);
+    
+}
+@media screen and (max-width: 620px){
+    .team img{
+        width: 200px;
+        
+    }
+    .team .src{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+   
+    
 }
 
+
+
+section .foot .img-png{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
 section .foot .img-png img{
     width: 100px;
-    margin-left: 600px;
-    margin-top: 30px;
-    margin-bottom: 70px;
 }
 section .foot .lorem p{
     text-align: center;
@@ -258,4 +294,31 @@ footer h5{
 footer .copy{
     margin-top: 180px;
     text-align: center;
+}
+@media screen and (max-width: 620px){
+    footer .flexible{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        font-weight: 600;
+    }
+    footer .info{
+        font-weight: 600;
+    
+        font-size: 20px;
+        
+    }
+    footer .flexible{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        font-weight: 500;
+    }
+    footer h5{
+        margin-top: 90px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
 }
